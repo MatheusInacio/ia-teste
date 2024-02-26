@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.item span {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.app {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
